@@ -15,7 +15,6 @@ public class PriorityQueue {
 
     public void put(Task task) {
         int index = 0;
-        int L = tasks.size();
         if(tasks.size() == 0) {
             tasks.add(0, task);
             return;
